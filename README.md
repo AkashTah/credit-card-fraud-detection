@@ -1,25 +1,18 @@
 # Credit Card Fraud Detection using Machine Learning
 
-This project involves building a machine learning model to predict whether a loan will be approved or not based on customer data.
+In this machine learning project, we solve the problem of detecting credit card fraud transactions using numpy, scikit learn, and a few other Python libraries. We overcome the problem by creating a binary classifier and experimenting with various machine learning techniques to see which fits better.
 
 ## 📊 Dataset
-The dataset is from https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud. The dataset includes features such as transaction amount, old and new balance, and a target column indicating fraudulent activity (`isFraud`).
+The dataset is from https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud. The dataset contains transactions made by credit cards in September 2013 by European cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
 
 ## 🚀 Approach
-- Preprocessing (label encoding, feature scaling, handling missing data)
-- Exploratory Data Analysis (Seaborn visualizations)
-- Model Training (Logistic Regression)
-- Evaluation using accuracy, precision, recall, F1-score, and cross-validation
+1. Perform Exploratory Data Analysis (EDA) on our dataset
+2. Apply different Machine Learning algorithms to our dataset
+3. Train and Evaluate our models on the dataset and pick the best one.
 
-## 🛠️ Tech Stack
+## 🛠️ Tools and Libraries used
 - Python
-- Pandas, NumPy, Seaborn, Matplotlib
-- scikit-learn
-
-## 📁 Repository Structure
-- `notebooks/`: EDA and model training notebooks
-- `src/`: Modular scripts for preprocessing and training
-- `data/`: Dataset files (e.g., `creditcard.csv`)
+- NumPy, scikit-learn, Matplotlib, Imblearn, Collections, Itertools
 
 ## 📜 License
 MIT License
